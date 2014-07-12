@@ -37,5 +37,5 @@ with(TimeData, legend(legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering
 ## creating the fourth plot
 with(TimeData, plot(Global_reactive_power ~ dateTime, type="l", xlab="datetime"))
 
-## closing the opened grahics device
+## closing the opened graphics device
 dev.off()
